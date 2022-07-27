@@ -1,0 +1,65 @@
+
+body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
+}
+
+div.Calculator {
+ 
+    background-color:rgb(250, 250, 250);
+    border: 1px solid black;
+    padding: 10px;
+    display: inline-block;
+   
+}
+
+input {
+    display: block;
+    width: 17rem;
+    margin: 0.3rem;
+    border: 1px solid silver;
+    font-size: 2rem;
+    text-align: right;
+    
+}
+
+.numberButtons button,
+.operators button {
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    margin: 0.1rem;
+    border: 2px solid silver;
+    outline-width: 0;
+    outline-color: silver;
+}
+
+button.biggerButton {
+    height: 6.15rem;
+}
+
+button.clear {
+    background-color: lightsalmon;
+}
+
+button.result {
+    background-color: rgb(184, 240, 184);
+}
+
+button:hover {
+    border-color: grey;
+}
+
+button:active {
+    font-weight: bold;
+    background-color: silver;
+}
+
+.left-panel,
+.right-panel {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0.3rem;
+}
